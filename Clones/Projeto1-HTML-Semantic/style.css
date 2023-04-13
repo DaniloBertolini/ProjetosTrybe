@@ -1,0 +1,62 @@
+body{
+    font-family: monospace;
+    /* background-image: linear-gradient(to right top, #8ce9d8, #81eddb, #74f1de, #65f4e1, #52f8e5, #40f5ea, #2af1ef, #00eef4, #09e2f7, #2ed5f7, #49c8f3, #5fbbeb); */
+    /* background-image: linear-gradient(to right top, #e98cbd, #cfa2ea, #9fbaff, #64d1ff, #40e2ff, #2be9f5, #33eee6, #4ef3d4, #44f2c2, #46f0ae, #50ee96, #5feb7d); */
+    background-image: linear-gradient(to right top, #e98cbd, #cfa2ea, #9fbaff, #64d1ff, #40e2ff, #18e5f1, #10e7de, #36e8c7, #0bdeab, #00d38b, #00c869, #21bc42);
+}
+
+p{
+    text-align: justify;
+    margin-bottom: 60px;
+}
+
+header{
+    font-size: 16px;
+}
+
+h1, h2, h3{
+    text-align: center;
+    font-size: 2em;
+}
+
+img{
+    width: 400px;
+}
+
+.fotos{
+    margin: 2% 35%;
+}
+
+.alinha{
+    vertical-align: top;    
+}
+
+#centro{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+td{
+    padding:0 20px;
+}
+
+table{
+    margin: auto;
+}
+
+ul{
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+footer, li, aside, nav{
+    text-align: center;
+}
+
+.foto{
+    text-align: center;
+}

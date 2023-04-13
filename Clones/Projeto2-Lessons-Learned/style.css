@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(253, 251, 251);
+    font-size: 16px;
+    font-family: monospace;
+    color: rgb(27, 25, 28);
+    line-height: 20px;
+}
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: linear-gradient(to right top, #36ff47, #00fe9b, #00f9d5, #00f0f7, #60e4ff, #7ddbff, #9ad1ff, #b1c8f5, #a6bff4, #9cb6f3, #92adf2, #89a4f0);
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#titulo {
+    margin: 15px 0;
+    margin-left: 50px;
+}
+
+#minha_foto {
+    width: 500px;
+    padding-top: 90px;
+    padding-left: 20px;
+    border-radius: 100%;
+}
+
+#sobre_mim {
+    text-align: justify;
+    margin:10px;
+    padding:15px 10px;
+}
+
+#resumo {
+    text-align: justify;
+    margin:10px;
+    padding:15px 10px;
+}
+
+#secao {
+
+}
+
+#rodape {
+    margin-top: 50px;
+    padding: 10px;
+    text-align: center;
+    background-color: gray;
+    font-size: 18px;
+}
+
+/* #resumo {
+    width: 20%;
+    position: fixed;
+    height: 200px;
+    top: 150px;
+    right: 20px;
+    text-align: justify;
+    padding: 7px;
+    margin: 1px;
+    border: 3px solid black;
+} */
+
+.titresumo{
+    margin-bottom: 10px;
+}
+
+#divisao{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+ul, ol {
+    margin-top: 250px;
+    height: 50%;
+}
+
+#licoes_aprendidas{
+    margin-top: 100px;
+    list-style: none;
+    margin-right: 150px;
+}
+
+#licoes_a_aprender{
+    margin-top: 100px;
+    list-style: none;
+    margin-left: 150px;
+}
+
+.lado-esquerdo, .lado-direito {
+    display: inline-block;
+    width: 44%;
+    vertical-align: top;
+}
+
+.titulolista {
+    height: 50%;
+    margin-bottom: 50px;
+    margin-top: 150px;
+    font-size: 18px;
+}
+
+a{
+    padding: 10px;
+}
+
+#ref {
+    background-color: blue;
+    margin: 30px auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    color: aqua;
+    text-decoration: none;
+    display: block;
+    width: fit-content;
+
+}
+
+#table {
+    padding: 20px;
+}
+
+td {
+    padding-left: 30px;
+}

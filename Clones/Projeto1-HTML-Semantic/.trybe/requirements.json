@@ -1,0 +1,60 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "1 - Adicione um cabeçalho na página.",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "7 - Adicione um rodapé na página.",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "2 - Adicione um conjunto de links que representam a área de navegação do site.",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "3 - Crie um artigo que vai conter os fatos interessantes sobre o `Stomatopoda`.",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "4 - Divida o artigo em seções.",
+      "enabled": true,
+      "identifier": null,
+      "order": 4,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "5 - Divida o artigo em seções.",
+      "enabled": true,
+      "identifier": null,
+      "order": 5,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "6 - Adicione um conteúdo adjacente ao artigo.",
+      "enabled": true,
+      "identifier": null,
+      "order": 6,
+      "skill_ids": []
+    }
+  ]
+}

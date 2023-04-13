@@ -1,0 +1,28 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "1 - Crie uma função que ligue e desligue um motor de um carro",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "2 - Crie uma função que calcule a área de um círculo",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "3 - Crie uma função que receba uma frase como parâmetro e retorne a maior palavra da frase",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": []
+    }
+  ]
+}

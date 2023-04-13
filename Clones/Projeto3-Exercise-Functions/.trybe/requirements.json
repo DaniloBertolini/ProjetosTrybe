@@ -1,0 +1,60 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "1 - Crie uma função que verifica palíndromos",
+      "enabled": true,
+      "identifier": null,
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "2 - Crie uma função que retorne o índice do maior valor",
+      "enabled": true,
+      "identifier": null,
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "3 - Crie uma função que retorne o índice do menor valor",
+      "enabled": true,
+      "identifier": null,
+      "order": 3,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "4 - Crie uma função que retorna a maior palavra",
+      "enabled": true,
+      "identifier": null,
+      "order": 4,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "5 - Crie uma função que retorne o número mais frequente",
+      "enabled": true,
+      "identifier": null,
+      "order": 5,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "6 - Crie uma função que retorna o somatório de um número",
+      "enabled": true,
+      "identifier": null,
+      "order": 6,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "7 - Crie uma função que verifica se uma string é o final de outra",
+      "enabled": true,
+      "identifier": null,
+      "order": 7,
+      "skill_ids": []
+    }
+  ]
+}
