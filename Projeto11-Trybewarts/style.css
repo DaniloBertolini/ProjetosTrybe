@@ -1,0 +1,174 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: azure;
+  font-family: Cabin Sketch, cursive;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(50, 167, 145);
+  align-items: center;
+  height: 80px;
+}
+
+header img {
+  height: 60px;
+  margin-left: 1%;
+}
+
+.header h1 {
+  color: white;
+  font-size: 35px;
+  margin: 0;
+}
+
+.trybewarts-login {
+  display: flex;
+  width: 410px;
+  justify-content: space-between;
+  margin-right: 15px;
+}
+
+.trybewarts-login input {
+  width: 130px;
+  border-radius: 9px;
+  border: 0;
+  padding-left: 15px;
+}
+
+.trybewarts-login button {
+  padding: 10px;
+  border-radius: 9px;
+  background-color: rgb(78, 44, 131);
+  color: white;
+  width: 130px;
+  border: 0;
+  font-family: Cabin Sketch, cursive;
+}
+
+.textarealeft {
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+}
+
+#evaluation-form {
+  display: flex;
+  align-items: center;
+  width: 675px;
+  flex-direction: column;
+}
+
+.form-container {
+  display: flex;
+  width: 675px;
+
+}
+
+#title {
+  padding: 20px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#part1-form input , #part1-form select {
+  margin-bottom: 10px;
+  height: 35px;
+  width: 310px;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+#part1-form select {
+  background-color: white;
+  width: 270px;
+  font-family: Cabin Sketch, cursive;
+}
+
+#part2-form {
+  display: flex;
+  justify-content: space-between;
+}
+
+#family-opt {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.margin {
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.margin , #label-infos , #obs {
+  margin-bottom: 15px;
+}
+
+#subject-opt {
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.enquadrar {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tam {
+  width: 100px;
+}
+
+#submit-btn {
+  padding: 10px;
+  border-radius: 9px;
+  background-color: rgb(78, 44, 131);
+  color: white;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: rgb(60, 64, 74);
+  color: white;
+  font-size: 22px;
+  padding: 7px;
+  text-align: center;
+  margin-top: auto;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin: 20px 0;
+}
+
+input::placeholder , option {
+  font-family: Cabin Sketch, cursive;
+}
+
+#textarea {
+  width: 100%;
+}
