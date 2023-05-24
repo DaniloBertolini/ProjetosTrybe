@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+
+body, button, input {
+    font-family: 'Silkscreen', cursive;
+}
+
+body {
+    background: #121215;
+    color: #EAEAEA;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+};
+
+h1 span {
+    color: #95EBA8;
+}
+
+.container header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header h1 {
+    background-image: linear-gradient(90deg, #4AC7FA 0%, #E649F5 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 60px;
+    font-weight: 700;
+    margin: 32.5px 0;
+    text-align: center;
+}
+
+header form {
+    text-align: center;
+    display: flex;
+}
+
+header form input {
+    padding: 16px;
+    font-size: 16px;
+
+    border-radius: 4px 0 0 4px;
+    border: 1px solid transparent;
+    border-right-width: 0;
+
+    transition: border-color 0.2s;
+}
+
+header form input:hover {
+    border-color: #4AC7FA;
+}
+
+header form button {
+    width: 56px;
+
+    background-color: #4AC7FA;
+    border-radius: 0 4px 4px 0;
+    line-height: 0;
+
+    transition: filter 0.2s;
+}
+
+header form button:hover {
+    filter: brightness(90%);
+}
+
+.container {
+    /* border: 2px red solid; */
+    height: 100vh;
+    width: 70%;
+}
+
+.container main ul {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+
+}
+
+main ul li {
+    list-style: none;
+    background:rgba(255,255,255, 0.1);
+    padding: 16px;
+    border-radius: 4px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border: 1px solid transparent;
+    transition: all 0.2s;
+}
+
+main ul li:hover {
+    transform: translateY(-10px) scale(1.1);
+    border-color: #4AC7FA;
+}
+
+main ul li:hover span {
+    color: #95EBA8;
+}
+
+main h2 {
+    background-image: linear-gradient(90deg, #E649F5 0%, #4AC7FA 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 35px;
+    text-align: center;
+    color: gray;
+    margin-bottom: 20px
+}
+
+.swal2-modal {
+    color: #EAEAEA;
+    background-color: #2f2f32;
+}

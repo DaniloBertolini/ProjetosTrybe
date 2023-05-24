@@ -1,0 +1,25 @@
+{
+  "name": "sd-0x-exercice-books-list",
+  "version": "1.0.0",
+  "description": "Para realizar o exercício, atente-se a cada passo descrito a seguir, e se tiver qualquer dúvida, nos envie por _Slack_! #vqv 🚀",
+  "main": "books.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/betrybe/sd-0x-exercice-books-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/betrybe/sd-0x-exercice-books-list/issues"
+  },
+  "homepage": "https://github.com/betrybe/sd-0x-exercice-books-list#readme",
+  "devDependencies": {
+    "eslint-config-trybe-fundamentals": "1.1.1",
+    "jest": "25.2.3"
+  }
+}
